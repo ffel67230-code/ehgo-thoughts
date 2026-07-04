@@ -29,13 +29,12 @@ type Comment = {
 };
 
 const COLORS = [
-  "#1f1f1f",
-  "#3a3a3a",
-  "#5a5a5a",
-  "#7a7a7a",
-  "#9a9a9a",
-  "#c0c0c0",
-  "#e5e5e5",
+  "#2563eb", // azul
+  "#dc2626", // vermelho
+  "#eab308", // amarelo
+  "#ec4899", // rosa
+  "#f97316", // laranja
+  "#9333ea", // roxo
 ];
 
 const MAX_IMG_BYTES = 600_000; // ~600 KB inline
