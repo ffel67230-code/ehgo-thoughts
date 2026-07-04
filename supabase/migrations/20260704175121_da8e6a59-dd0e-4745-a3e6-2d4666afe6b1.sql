@@ -1,0 +1,1 @@
+ALTER TABLE public.comments ALTER COLUMN color SET DEFAULT '#2563eb';
