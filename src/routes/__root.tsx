@@ -78,18 +78,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "EHGO.qzz.io" },
-      { name: "description", content: "Mural público de comentários com cor e imagem." },
-      { property: "og:title", content: "EHGO.qzz.io" },
-      { property: "og:description", content: "Mural público de comentários." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
   shellComponent: RootShell,
