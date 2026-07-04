@@ -5,16 +5,7 @@ import { supabase } from "@/integrations/supabase/client";
 
 export const Route = createFileRoute("/")({
   head: () => ({
-    meta: [
-      { title: "EHGO.qzz.io — mural de comentários" },
-      {
-        name: "description",
-        content:
-          "Deixe um comentário rápido no EHGO.qzz.io: escolha uma cor, adicione uma imagem e apareça no mural.",
-      },
-      { property: "og:title", content: "EHGO.qzz.io" },
-      { property: "og:description", content: "Mural público de comentários." },
-    ],
+    meta: [{ title: "EHGO.qzz.io" }],
   }),
   component: Index,
 });
